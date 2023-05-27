@@ -1,0 +1,37 @@
+#resim-konteyner {
+    align-items: center;
+    
+    margin: auto auto auto 600px;
+  }
+  
+
+  #alt-bolum {
+    margin-top: 20px;
+    text-align: center;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+
+  #bolme-konteyner {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .bolme {
+    width: calc(100% / 3);
+    height: 300px;
+    background-color: #79db90;
+    border: 1px solid #79db90;
+    margin: 10px;
+  }
+  .text-konteyner {
+    text-align: center;
+  }
+  
+  .text-konteyner input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+  }
